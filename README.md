@@ -5,9 +5,9 @@ Project Overview
 This project is an interactive Power BI dashboard designed to analyze the Amazon Prime content library, including movies and TV shows. The dashboard provides a clear view of the size, quality, release trends, audience certifications, content types, and cast/role distribution within the dataset.
 The main goal is to transform the raw Amazon Prime dataset into an easy-to-understand visual dashboard that helps users explore content patterns and identify useful insights.
 
-#Objectives
+## Objectives
 ---
-* The dashboard was created to:
+The dashboard was created to:
 
 1.Understand the overall size of the Amazon Prime content catalog.
 2.Compare movies and TV shows.
@@ -18,7 +18,7 @@ The main goal is to transform the raw Amazon Prime dataset into an easy-to-under
 7.Compare the average runtime of movies and shows.
 8.Analyze the distribution of roles such as actors and directors.
 9.Allow users to interactively filter the dashboard by content type, genre, and production country.
----
+
 ## Key Performance Indicators
 
 The dashboard provides high-level summary cards for important metrics:
