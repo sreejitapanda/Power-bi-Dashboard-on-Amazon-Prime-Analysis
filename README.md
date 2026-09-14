@@ -1,13 +1,13 @@
 **Amazon Prime TV Shows & Movies Analysis Dashboard**
 ---
-**Project Overview**
+## Project Overview
 ---
 This project is an interactive Power BI dashboard designed to analyze the Amazon Prime content library, including movies and TV shows. The dashboard provides a clear view of the size, quality, release trends, audience certifications, content types, and cast/role distribution within the dataset.
 The main goal is to transform the raw Amazon Prime dataset into an easy-to-understand visual dashboard that helps users explore content patterns and identify useful insights.
 ---
-**Objectives**
+## Objectives
 ---
-The dashboard was created to:
+* The dashboard was created to:
 
 1.Understand the overall size of the Amazon Prime content catalog.
 2.Compare movies and TV shows.
@@ -19,7 +19,8 @@ The dashboard was created to:
 8.Analyze the distribution of roles such as actors and directors.
 9.Allow users to interactively filter the dashboard by content type, genre, and production country.
 ---
-**Key Performance Indicators**
+## Key Performance Indicators
+
 The dashboard provides high-level summary cards for important metrics:
 1.Total Titles
 The dashboard contains 8,721 titles in the analyzed dataset.
@@ -27,49 +28,49 @@ The dashboard contains 8,721 titles in the analyzed dataset.
 The dashboard shows approximately 80.44K cast/people records associated with the content.
 3.These KPI cards provide an immediate overview of the size of the content catalog and its associated cast information
 ---
-**Dashboard Visualizations**
+## Dashboard Visualizations
 ---
-1. Top 5 Titles by IMDb Score
+* 1. Top 5 Titles by IMDb Score
 A horizontal bar chart displays the top five titles based on IMDb score.
 This visual helps identify the highest-rated content in the dataset and makes it easy to compare ratings between the leading titles.
 The chart is interactive and can change based on applied dashboard filters.
 
-2. Titles Released per Year
+* 2. Titles Released per Year
 A time-series chart shows the number of titles released across different years.
 The visual separates:Movies,Shows
 It helps to identify changes in content production over time and highlights periods where the number of releases increased significantly.
 
-3. Count of Roles – Actor vs Director
+* 3. Count of Roles – Actor vs Director
 A donut chart presents the distribution of recorded roles.
 The dashboard compares:Actor,Director
 It shows overview of how the people associated with the content are distributed across major role categories.
 
-4. Distribution of Age Certifications
+* 4. Distribution of Age Certifications
 A funnel-style/bar visualization shows the distribution of content across different age certifications.
 Examples of certifications visible in the dashboard include: R,PG-13,PG,G etc.
 This helps understand the audience categories targeted by the available content.
 
-5. Average IMDb Score – Movies vs Shows
+* 5. Average IMDb Score – Movies vs Shows
 A column chart compares the average IMDb score between movies and shows.
 This visual provides a quick way to understand how the two content types perform in terms of average viewer ratings.
 
-6. Average Runtime – Movies vs Shows
+* 6. Average Runtime – Movies vs Shows
 A column chart compares the average runtime of movies and TV shows.
 This helps identify differences in typical content length between the two formats.
 
-7. Content Type Distribution
+* 7. Content Type Distribution
 A chart is included to show the overall distribution of content types in the dataset.
 The main categories are: Movies,Shows
 This allows users to understand the composition of the Amazon Prime catalog.
 
-8.Interactive Filters
+* 8.Interactive Filters
 The dashboard includes interactive slicers that allow users to explore the data dynamically.
 
-9.Content Type
+* 9.Content Type
 Users can filter the dashboard by: Movie,Show,Genre
 ---
-**Key Insights**
-Based on the dashboard:
+## Key Insights
+* Based on the dashboard:
 1.The analyzed catalog contains 8,721 titles.
 2.The dataset contains approximately 80.44K cast/people records.
 3.The highest-rated titles can be quickly identified using the Top 5 IMDb Score visual.
@@ -79,13 +80,13 @@ Based on the dashboard:
 7.The role distribution is dominated by actor records compared with director records.
 8.Interactive filters make it possible to analyze these patterns for particular content types, genres, and production countries.
 ---
-**Tools & Technologies**
+## Tools & Technologies
 1.Microsoft Power BI – Dashboard development and visualization
 2.Power Query – Data preparation and transformation
 3.DAX – Measures and calculations
 4.Amazon Prime Movies & TV Shows Dataset – Source data
-
-**Dashboard Design**
+--
+## Dashboard Design
 The dashboard uses:
 1.KPI cards for summary metrics
 2.Bar charts for title rankings
@@ -95,8 +96,8 @@ The dashboard uses:
 6.Interactive slicers for filtering
 7.A consistent dashboard layout for easy navigation and comparison
 ---
-**Dataset Fields Used**
-The dashboard works with fields such as:
+## Dataset Fields Used
+* The dashboard works with fields such as:
 .id
 .title
 .type
@@ -112,7 +113,7 @@ The dashboard works with fields such as:
 .character
 .name
 ---
-**How to Use the Dashboard**
+## How to Use the Dashboard
 1.Open the Power BI report.
 2.Use the Movie/Show filter to select the required content type.
 3.Select a genre to focus the analysis.
@@ -121,11 +122,8 @@ The dashboard works with fields such as:
 6.Compare IMDb scores, runtime, release trends, certifications, and role distributions.
 7.Clear the filters to return to the complete dataset view.
 ---
-**Conclusion**
+## Conclusion
 
 The Amazon Prime TV Shows & Movies Analysis Dashboard converts a large content dataset into an interactive visual analytics solution. It provides a quick overview of the catalog while also allowing deeper exploration through filters and comparative visualizations.
 The dashboard can be useful for understanding content trends, audience certifications, ratings, runtime, content type distribution, and people/role information within the Amazon Prime dataset.
 
-
-Project: Amazon Prime TV Shows & Movies Analysis
-Tool: Microsoft Power BI
