@@ -68,7 +68,7 @@ The dashboard includes interactive slicers that allow users to explore the data 
 
 * 9.Content Type
 Users can filter the dashboard by: Movie,Show,Genre
----
+
 ## Key Insights
 * Based on the dashboard:
 1.The analyzed catalog contains 8,721 titles.
@@ -79,14 +79,16 @@ Users can filter the dashboard by: Movie,Show,Genre
 6.Age certification analysis shows that content is distributed across a wide range of audience categories.
 7.The role distribution is dominated by actor records compared with director records.
 8.Interactive filters make it possible to analyze these patterns for particular content types, genres, and production countries.
----
+  
 ## Tools & Technologies
+
 1.Microsoft Power BI – Dashboard development and visualization
 2.Power Query – Data preparation and transformation
 3.DAX – Measures and calculations
 4.Amazon Prime Movies & TV Shows Dataset – Source data
---
+
 ## Dashboard Design
+
 The dashboard uses:
 1.KPI cards for summary metrics
 2.Bar charts for title rankings
@@ -95,8 +97,9 @@ The dashboard uses:
 5.Column charts for movie/show comparisons
 6.Interactive slicers for filtering
 7.A consistent dashboard layout for easy navigation and comparison
----
+
 ## Dataset Fields Used
+
 * The dashboard works with fields such as:
 .id
 .title
@@ -112,8 +115,9 @@ The dashboard uses:
 .role
 .character
 .name
----
+
 ## How to Use the Dashboard
+
 1.Open the Power BI report.
 2.Use the Movie/Show filter to select the required content type.
 3.Select a genre to focus the analysis.
@@ -121,7 +125,7 @@ The dashboard uses:
 5.Hover over charts to view detailed values.
 6.Compare IMDb scores, runtime, release trends, certifications, and role distributions.
 7.Clear the filters to return to the complete dataset view.
----
+
 ## Conclusion
 
 The Amazon Prime TV Shows & Movies Analysis Dashboard converts a large content dataset into an interactive visual analytics solution. It provides a quick overview of the catalog while also allowing deeper exploration through filters and comparative visualizations.
