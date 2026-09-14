@@ -1,12 +1,12 @@
 **Amazon Prime TV Shows & Movies Analysis Dashboard**
 ---
 **Project Overview**
-
+---
 This project is an interactive Power BI dashboard designed to analyze the Amazon Prime content library, including movies and TV shows. The dashboard provides a clear view of the size, quality, release trends, audience certifications, content types, and cast/role distribution within the dataset.
 The main goal is to transform the raw Amazon Prime dataset into an easy-to-understand visual dashboard that helps users explore content patterns and identify useful insights.
-
+---
 **Objectives**
-
+---
 The dashboard was created to:
 
 1.Understand the overall size of the Amazon Prime content catalog.
@@ -18,7 +18,7 @@ The dashboard was created to:
 7.Compare the average runtime of movies and shows.
 8.Analyze the distribution of roles such as actors and directors.
 9.Allow users to interactively filter the dashboard by content type, genre, and production country.
-
+---
 **Key Performance Indicators**
 The dashboard provides high-level summary cards for important metrics:
 1.Total Titles
@@ -26,9 +26,9 @@ The dashboard contains 8,721 titles in the analyzed dataset.
 2.Total Cast Members
 The dashboard shows approximately 80.44K cast/people records associated with the content.
 3.These KPI cards provide an immediate overview of the size of the content catalog and its associated cast information
-
+---
 **Dashboard Visualizations**
-
+---
 1. Top 5 Titles by IMDb Score
 A horizontal bar chart displays the top five titles based on IMDb score.
 This visual helps identify the highest-rated content in the dataset and makes it easy to compare ratings between the leading titles.
@@ -67,7 +67,7 @@ The dashboard includes interactive slicers that allow users to explore the data 
 
 9.Content Type
 Users can filter the dashboard by: Movie,Show,Genre
-
+---
 **Key Insights**
 Based on the dashboard:
 1.The analyzed catalog contains 8,721 titles.
